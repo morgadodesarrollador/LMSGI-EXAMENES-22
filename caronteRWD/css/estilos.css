@@ -129,38 +129,7 @@ body{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* TABLET */
 
 
 
@@ -277,6 +246,14 @@ body{
         order: 1;
     }
 }
+
+
+
+
+/* ESCRITORIO */
+
+
+
 
 @media screen and (min-width: 900px) {
     header{
