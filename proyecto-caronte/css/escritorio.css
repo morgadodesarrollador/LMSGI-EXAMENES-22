@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABECERA */
+header{
+    background-color: none;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+header nav#contacto{
+    background-color: none;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+}
+
+header nav#contacto a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+/* REFERENCIA AL PRIMER HIJO */
+header nav#contacto a:first-child{
+    background-color: green;
+    padding: 2px;
+}
+
+/* ICONOS DE REDES SOCIALES */
+header nav#iconos{
+    background-color: none;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav#iconos i{
+    font-size: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* LOGOTIPO */
+header figure{
+    background-color: black;
+    width: 20%;
+    height: 120px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header figure img{
+    width: 100px;
+}
+
+header figure p{
+    color: white;
+    font-size: 20px;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+header nav#menu{
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    height: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header nav#menu a{
+    text-decoration: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EFECTOS DE MOVIMIENTO */
+header #menu a:nth-child(1) span {
+    order: 1;
+}
+header #menu a:nth-child(1) i {
+    order: 2;
+}
+
+header #menu a span{
+    color: white;
+    order: 2;
+    transition: all 1s;
+} 
+
+header #menu a i{
+    color: green;
+    font-size: 30px;
+    order: 1;
+    transition: all 1s;
+}
+
+header #menu a:hover i {
+    color: red;
+    transform: scale(1) translateY(30px);
+}
+
+header #menu a:hover span {
+    color: blue;
+    transform: translateY(-20px);
+}
+
+/* CONTENIDO */
+main{
+    background-color: gray;
+    height: 500px;
+}
+
+main div#trabajos{
+    background-color: orange;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main div#trabajos p{
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Dancing Script';
+    width: 70%;
+}
+
+main div#trabajos nav{
+    width: 30%;
+}
+
+main div#trabajos nav a{
+    text-decoration: none;
+}
+
+main div#trabajos nav a:nth-child(5){
+    color: black;
+    text-decoration: underline;
+}
+
+main section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+main section article{
+    background-color: cadetblue;
+    width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px;
+}
+
+main section article figure{
+    width: 40%;
+    order: 1;
+}
+
+main section article figure img{
+    width: 100px;
+}
+
+main section article button{
+    background-color: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 2px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    order: 2;
+}
+
+main section article button:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
+
+main section article h3{
+    margin: 5px;
+    order: 4;
+}
+
+main section article .precio{
+    order: 3;
+    width: 50%;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+main section article .valoracion{
+    order: 5;
+    width: 30%;
+    margin-left: 5px;
+}
+
+main section article .opinion{
+    order: 6;
+    width: 30%;
+}
+
+main section article div{
+    order: 7;
+    width: 30%;
+}
+

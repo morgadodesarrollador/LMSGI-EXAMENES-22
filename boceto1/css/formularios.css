@@ -1,0 +1,38 @@
+.boton{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+.boton input{
+    order: 2;
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: blue;
+    background-image: url(../img/react.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.boton label{
+    order: 1;
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+
+.buscadores{
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: blue;
+    background-image: url(../img/react.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}

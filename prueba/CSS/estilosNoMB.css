@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:0px) and (max-width:599px){
+    header{
+        background-color: brown;
+    }
+    main{
+        background-color: blueviolet;
+    }
+    main article{
+        background-color: aqua;
+    }
+}
+
+@media(min-width:600px){
+    header{
+        background-color: rgb(241, 0, 241);
+    }
+    main article{
+        background-color: rgb(168, 183, 65);
+    }
+}
+
+@media(min-width:900px){
+    header{
+        background-color: rgb(25, 0, 139);
+    }
+    main article{
+        background-color: rgb(154, 5, 5);
+    }
+}
