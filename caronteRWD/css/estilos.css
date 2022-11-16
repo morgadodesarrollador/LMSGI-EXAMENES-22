@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 .contorno{
     border: 1px solid red;
 }
@@ -12,6 +11,8 @@
 body{
     background-color: rgba(90, 86, 86, 0.275);
 }
+
+/* MOVIL */
 
 @media screen and (min-width: 0px) {
 
@@ -26,8 +27,8 @@ body{
         justify-content: space-around;
         align-items: center;
         background-color: black;
-
     }
+
     header nav#sociales{
         width: 100%;
         padding: 25px;
@@ -39,14 +40,11 @@ body{
 
     header nav#sociales i{
         font-size: 30px;
-        /* padding-right: 50px; */
         border: 2px solid black;
         margin-right: 5px;
         border-radius: 5px;
         padding: 2px;
     }
-
-
 
     header nav#contacto{
         display: none;
@@ -54,9 +52,6 @@ body{
 
     header figure{
         width: 20%;
-        /* display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-start; */
     }
     
     header figure img{
@@ -84,7 +79,6 @@ body{
         display: flex;
         flex-flow: column nowrap;
         width: 95%;
-
     }
 
     header nav#menu a{
@@ -99,7 +93,6 @@ body{
     header nav#menu a#quienes{
         order: 4;
     }
-
 
     header nav#menu a#formacion{
         order: 3;
@@ -117,7 +110,6 @@ body{
         order: 5;
     }
 
-    
     header nav#menu a span{
         font-size: 25px;
         padding: 5px;
@@ -131,34 +123,15 @@ body{
 
 /* TABLET */
 
-
-
 @media screen and (min-width: 650px) {
-
-    
-
-    /* header{
-        background-color: rgb(80, 4, 142);
-    }
-
-    header :nth-child(3){
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-end; 
-    }
-
-    header :nth-child(4){
-    }   */
 
     header nav#contacto{
         display: block;
-        /* border: 3px solid rgb(128, 51, 51); */
         width: 100%;
         order: 1;
         background-color: rgb(237, 235, 235);
         font-size: 20px;
         padding: 10px;
-        
     }
 
     header nav#sociales{
@@ -171,9 +144,7 @@ body{
 
     header figure{
         order: 3;
-        /* margin-left: 70px; */
         width: 40%;
-        /* padding-left: 180px; */
         display: flex;
         flex-flow: row nowrap;
         justify-content: flex-end;
@@ -215,7 +186,6 @@ body{
         order: 3;
     }
 
-
     header nav#menu a#formacion{
         order: 4;
     }
@@ -248,13 +218,7 @@ body{
     }
 }
 
-
-
-
 /* ESCRITORIO */
-
-
-
 
 @media screen and (min-width: 900px) {
     header{
@@ -265,7 +229,6 @@ body{
         order: 1;
         width: 60%;
         padding: 16px;
-
     }
 
     header nav#sociales{
@@ -273,7 +236,6 @@ body{
         width: 40%;
         padding: 10px;
     }
-
 
     header nav#sociales i{
         padding-right: 25px;
@@ -296,9 +258,4 @@ body{
         order: 4;
         width: 80%;
     }
-    
-
-
-
-    
 }
