@@ -242,8 +242,9 @@ body{
     header nav#menu a i{
         display: block;
         color: green;
-        font-size: 30px;
+        font-size: 40px;
         order: 1;
+        padding-top: 30px;
     }
 }
 
@@ -257,7 +258,47 @@ body{
 
 @media screen and (min-width: 900px) {
     header{
-        background-color: rgb(142, 68, 4);
+        flex-flow: row wrap;
     }
+
+    header nav#contacto{
+        order: 1;
+        width: 60%;
+        padding: 16px;
+
+    }
+
+    header nav#sociales{
+        order: 2;
+        width: 40%;
+        padding: 10px;
+    }
+
+
+    header nav#sociales i{
+        padding-right: 25px;
+    }
+
+    header figure{
+        order: 3;
+        width: 20%;
+        justify-content: center;
+    }
+
+    header h1{
+        order: 5;
+        font-size: 20px;
+        width: 95%;
+        padding-bottom: 20px;
+    }
+
+    header nav#menu{
+        order: 4;
+        width: 80%;
+    }
+    
+
+
+
     
 }
