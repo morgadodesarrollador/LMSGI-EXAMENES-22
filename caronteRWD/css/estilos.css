@@ -119,6 +119,37 @@ body{
     header nav#menu a i{
         display: none;
     }
+
+    /* MAIN */
+    main{
+        display: flex;
+        flex-flow: row wrap;
+
+    }
+
+    main header{
+        background-color: orange;
+        height: 80px;
+        width: 100%;
+        justify-content: flex-start;
+        padding-left: 5px;
+    }
+
+    main header h2{
+        width: 100%;
+        font-size: 30px;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+
+    main header nav{
+        padding-bottom: 10px;
+    }
+
+    main header nav a{
+        color: rgb(148, 5, 141);
+    }
+
 }
 
 /* TABLET */
