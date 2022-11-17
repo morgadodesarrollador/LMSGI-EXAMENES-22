@@ -179,7 +179,11 @@ body{
     }
 
     main section article div h2{
-        color: blue;
+        color: rgb(81, 0, 255);
+    }
+
+    main section article div p{
+        color: rgb(142, 142, 142);
     }
 
 }
@@ -291,6 +295,34 @@ body{
         justify-content: flex-end;
         padding-right: 20px;
     }
+
+
+    main section{
+        justify-content: space-around;
+    }
+
+    main section article{
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    main section article div{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    main section article div p{
+        text-indent: 30px;
+        font-style: italic;
+    }
+
+
+
+
 }
 
 /* ESCRITORIO */
@@ -332,5 +364,9 @@ body{
     header nav#menu{
         order: 4;
         width: 80%;
+    }
+
+    main section article{
+        width: 30%;
     }
 }
