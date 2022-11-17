@@ -150,6 +150,38 @@ body{
         color: rgb(148, 5, 141);
     }
 
+    main section{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 5px;
+    }
+
+    main section article{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    main section article figure{
+        width: 20%;
+    }
+
+    main section article img{
+        height: 80%;
+    }
+
+    main section article div{
+        width: 70%;
+    }
+
+    main section article div h2{
+        color: blue;
+    }
+
 }
 
 /* TABLET */
