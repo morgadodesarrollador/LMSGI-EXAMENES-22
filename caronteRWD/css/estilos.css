@@ -207,7 +207,7 @@ body{
         order: 2;
     }
 
-    header nav#sociales i{
+    header nav#sociales a i{
         border: none;
     }
 
@@ -365,7 +365,7 @@ body{
         padding: 10px;
     }
 
-    header nav#sociales i{
+    header nav#sociales a i{
         padding-right: 25px;
     }
 
