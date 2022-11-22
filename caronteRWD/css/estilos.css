@@ -286,6 +286,33 @@ body{
         padding-top: 30px;
     }
 
+    /* EFECTOS DE MOVIMIENTO */
+    
+    header #menu a span{
+        color: white;
+        order: 2;
+        transition: all 1s;
+    } 
+    
+    header #menu a i{
+        color: green;
+        font-size: 30px;
+        order: 1;
+        transition: all 1s;
+    }
+    
+    header #menu a:hover i {
+        color: red;
+        transform: scale(1) translateY(50px);
+    }
+    
+    header #menu a:hover span {
+        color: blue;
+        transform: translateY(-20px);
+    }
+
+    /* MAIN */
+
     main header h2{
         width: 50%;
     }
@@ -318,31 +345,6 @@ body{
     main section article div p{
         text-indent: 30px;
         font-style: italic;
-    }
-
-    /* EFECTOS DE MOVIMIENTO */
-    
-    header #menu a span{
-        color: white;
-        order: 2;
-        transition: all 1s;
-    } 
-    
-    header #menu a i{
-        color: green;
-        font-size: 30px;
-        order: 1;
-        transition: all 1s;
-    }
-    
-    header #menu a:hover i {
-        color: red;
-        transform: scale(1) translateY(50px);
-    }
-    
-    header #menu a:hover span {
-        color: blue;
-        transform: translateY(-20px);
     }
 }
 
