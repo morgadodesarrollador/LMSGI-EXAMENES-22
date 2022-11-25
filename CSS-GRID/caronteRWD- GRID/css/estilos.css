@@ -1,0 +1,395 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contorno{
+    border: 1px solid red;
+}
+
+body{
+    background-color: rgba(90, 86, 86, 0.275);
+}
+
+/* MOVIL */
+
+@media screen and (min-width: 0px) {
+
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+
+    header{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+    }
+
+    header nav#sociales{
+        width: 100%;
+        padding: 25px;
+        background-color: rgb(237, 235, 235);
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+
+    header nav#sociales i{
+        font-size: 30px;
+        border: 2px solid black;
+        margin-right: 5px;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    header nav#contacto{
+        display: none;
+    }
+
+    header figure{
+        width: 20%;
+    }
+    
+    header figure img{
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+        
+    }
+
+    header h1{
+        width: 60%;
+        font-size: 40px;
+        color: whitesmoke;
+    }
+
+    header button{
+        height: 50px;
+        font-size: 30px;
+        padding: 10px;
+        border: 0;
+        background-color: black;
+        color: whitesmoke;
+    }
+
+    header nav#menu{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 95%;
+    }
+
+    header nav#menu a{
+        padding: 5px;
+        border: 2px solid rgb(143, 143, 143);
+    }
+
+    header nav#menu a#portfolio{
+        display: none;
+    }
+
+    header nav#menu a#quienes{
+        order: 4;
+    }
+
+    header nav#menu a#formacion{
+        order: 3;
+    }
+
+    header nav#menu a#servicios{
+        order: 2;
+    }
+
+    header nav#menu a#trabajo{
+        order: 1;
+    }
+
+    header nav#menu a#contacto{
+        order: 5;
+    }
+
+    header nav#menu a span{
+        font-size: 25px;
+        padding: 5px;
+        color: whitesmoke;
+    }
+
+    header nav#menu a i{
+        display: none;
+    }
+
+    /* MAIN */
+    main{
+        display: flex;
+        flex-flow: row wrap;
+
+    }
+
+    main header{
+        background-color: orange;
+        height: 80px;
+        width: 100%;
+        justify-content: flex-start;
+        padding-left: 5px;
+    }
+
+    main header h2{
+        width: 100%;
+        font-size: 30px;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+
+    main header nav{
+        padding-bottom: 10px;
+    }
+
+    main header nav a{
+        color: rgb(148, 5, 141);
+    }
+
+    /* SECTION */
+
+    main section{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 5px;
+    }
+
+    main section article{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    main section article figure{
+        width: 20%;
+    }
+
+    main section article img{
+        height: 80%;
+    }
+
+    main section article div{
+        width: 70%;
+    }
+
+    main section article div h2{
+        color: rgb(81, 0, 255);
+    }
+
+    main section article div p{
+        color: rgb(142, 142, 142);
+    }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 650px) {
+
+    header nav#contacto{
+        display: block;
+        width: 100%;
+        order: 1;
+        background-color: rgb(237, 235, 235);
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    header nav#sociales{
+        order: 2;
+    }
+
+    header nav#sociales a i{
+        border: none;
+    }
+
+    header figure{
+        order: 3;
+        width: 40%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+
+    header h1{
+        order: 4;
+        width: 60%;
+    }
+
+    header button{
+        order: 5;
+        display: none;
+    }
+
+    header nav#menu{
+        order: 6;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    header nav#menu a{
+        padding: 5px;
+        border: none;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header nav#menu a#portfolio{
+        display: block;
+        display: flex;
+        order: 1;
+    }
+
+    header nav#menu a#quienes{
+        order: 3;
+    }
+
+    header nav#menu a#formacion{
+        order: 4;
+    }
+
+    header nav#menu a#servicios{
+        order: 5;
+    }
+
+    header nav#menu a#trabajo{
+        order: 6;
+    }
+
+    header nav#menu a#contacto{
+        order: 2;
+    }
+    
+    header nav#menu a span{
+        font-size: 25px;
+        padding: 5px;
+        color: whitesmoke;
+        order: 2;
+    }
+
+    header nav#menu a i{
+        display: block;
+        color: green;
+        font-size: 40px;
+        order: 1;
+        padding-top: 30px;
+    }
+
+    /* EFECTOS DE MOVIMIENTO */
+    
+    header #menu a span{
+        color: white;
+        order: 2;
+        transition: all 1s;
+    } 
+    
+    header #menu a i{
+        color: green;
+        font-size: 30px;
+        order: 1;
+        transition: all 1s;
+    }
+    
+    header #menu a:hover i {
+        color: red;
+        transform: scale(1) translateY(50px);
+    }
+    
+    header #menu a:hover span {
+        color: blue;
+        transform: translateY(-20px);
+    }
+
+    /* MAIN */
+
+    main header h2{
+        width: 50%;
+    }
+
+    main header nav{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    main section{
+        justify-content: space-around;
+    }
+
+    main section article{
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    main section article div{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    main section article div p{
+        text-indent: 30px;
+        font-style: italic;
+    }
+}
+
+/* ESCRITORIO */
+
+@media screen and (min-width: 900px) {
+    header{
+        flex-flow: row wrap;
+    }
+
+    header nav#contacto{
+        order: 1;
+        width: 60%;
+        padding: 16px;
+    }
+
+    header nav#sociales{
+        order: 2;
+        width: 40%;
+        padding: 10px;
+    }
+
+    header nav#sociales a i{
+        padding-right: 25px;
+    }
+
+    header figure{
+        order: 3;
+        width: 20%;
+        justify-content: center;
+    }
+
+    header h1{
+        order: 5;
+        font-size: 20px;
+        width: 95%;
+        padding-bottom: 20px;
+    }
+
+    header nav#menu{
+        order: 4;
+        width: 80%;
+    }
+
+    main section article{
+        width: 30%;
+    }
+}

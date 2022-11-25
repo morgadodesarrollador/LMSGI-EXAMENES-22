@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.container{
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+}
+
+header{
+    height: 500px;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+header figure{
+    grid-column-end: 2;
+    grid-column-start: 1;
+}
+
+header h1{
+    grid-column-end: 2;
+    grid-column-start: 1;
+}
+
+main{
+    border: 2px solid black;
+    height: 500px;
+    
+}
+
+main section{
+    background-color: rgb(41, 143, 23);
+    height: 100%;
+
+}
+
+main aside{
+    background-color: blueviolet;
+    height: 200px;
+}
