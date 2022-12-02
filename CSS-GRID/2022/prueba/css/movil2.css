@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+    grid-template-rows: 50px 100px 300px;
+    grid-template-areas:
+    "contacto sociales sociales"
+    "logo titulo1 navicon"
+    "navppal navppal navppal";
+    /* gap: 5px; */
+    background-color: gray;
+
+}
+
+header #contacto {
+    grid-area: contacto;
+    /* display: none; */
+    border: 2px solid red;
+}
+
+
+header #sociales {
+    grid-area: sociales;
+
+}
+
+header #logo {
+    grid-area: logo;
+    height: 100px;
+
+}
+
+header #logo img {
+    height: 100%;
+}
+
+header h1 {
+    grid-area: titulo1;
+}
+
+header button {
+    grid-area: navicon;
+}
+
+header nav #ppal {
+    grid-area: navppal;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    
+}
+
+header #ppal a {
+    text-decoration: none;
+    border: 2px solid white;
+    width: 100%;
+}
+
+header #ppal a i {
+    display: none;
+}
+
+header nav#ppal a:nth-child(1){
+    display: none;
+}
