@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 992px) {
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        height: 100px;
+    }
+    header h1 {
+        display: flex;
+        justify-content: left;
+        width: 10%;
+        order: 1;
+    }
+    header #iconos {
+        width: 25%;
+        order: 3;
+    }
+    header button {
+        display: none;
+    }
+    header form {
+        order: 2;
+        width: 65%;
+    }
+    header #secciones {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        order: 4;
+        width: 100%;
+    }
+    header #secciones a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        text-decoration: none;
+        color: blue;
+    }
+    header #secciones a p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 100px 100px 30px 200px 200px;
+    }
+    main h2 {
+        color: rgb(211, 177, 4);
+        font-size: 22px;
+    
+    }
+
+    main #ofertas {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        padding-right: 10px;
+        
+    }
+
+    main h3 {
+        color: rgb(211, 177, 4);
+        font-size: 22px;
+    }
+
+    main #precios article {
+        width: 33%;
+    }
+}
