@@ -15,14 +15,8 @@ header{
 
 }
 
-header{
-    background-color: gray;
-    height: 400px;
-}
-
-header figure{
+header figure#logo{
     grid-area: logo;
-    /* gap: 10px; */
     background-color: orange;
 }
 
