@@ -93,34 +93,6 @@
         background-color: rgba(46, 172, 46, 0.282);
     }
 
-    /* main #dpto:nth-child(1){
-        order: 1;
-    }
-
-    main #dpto:nth-child(2){
-        order: 2;
-    }
-
-    main #dpto:nth-child(3){
-        order: 3;
-    }
-
-    main #dpto:nth-child(4){
-        order: 4;
-    }
-
-    main #dpto:nth-child(5){
-        order: 5;
-    }
-
-    main #dpto:nth-child(6){
-        order: 6;
-    }
-
-    main #dpto:nth-child(6){
-        order: 7;
-    } */
-
     main section#dpto article{
         display: flex;
         flex-flow: row wrap;

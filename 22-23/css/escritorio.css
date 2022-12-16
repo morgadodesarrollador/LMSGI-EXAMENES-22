@@ -30,8 +30,11 @@
     }
 
     header #secciones a{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
         width: 11%;
-        color: rgb(29, 4, 154);
+        color: blue;
         text-decoration: none;
         padding: 5px;
     }
@@ -40,12 +43,9 @@
         display: none;
     }
 
-    main{
-
-    }
     main section#dpto{
         display: flex;
-        /* flex-flow: wrap-reverse; */
+        flex-flow: wrap-reverse;
     }
 
     main section#dpto h1{
@@ -56,35 +56,12 @@
         width: 16%;
     }
 
-    /* main #dpto:nth-child(1){
-        order: 1;
+    main #prog h2{
+        color: goldenrod;
     }
-
-    main #dpto:nth-child(2){
-        order: 7;
-    }
-
-    main #dpto:nth-child(3){
-        order: 6;
-    }
-
-    main #dpto:nth-child(4){
-        order: 5;
-    }
-
-    main #dpto:nth-child(5){
-        order: 4;
-    }
-
-    main #dpto:nth-child(6){
-        order: 3;
-    }
-
-    main #dpto:nth-child(7){
-        order: 2;
-    } */
 
     main #prog article{
         width: 30%;
     }
+
 }
