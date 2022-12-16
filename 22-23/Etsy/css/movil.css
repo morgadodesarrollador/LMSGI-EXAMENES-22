@@ -23,7 +23,6 @@ nav#etsy {
 nav#etsy h1 {
   font-size: 40px;
   color: orange;
-  /* order: 2; */
 }
 nav#etsy input {
   display: none;
@@ -79,11 +78,43 @@ main section h2 {
 }
 main section article {
   margin-left: 20px;
-  /* width: 30%; IMPORTANTE REVISAR!!!!*/
+  width: 30vh;
 }
+
 main section article h4 {
   margin-bottom: 15px;
   text-align: center;
+}
+.type {
+  position: relative;
+  font-size: 40px;
+}
+
+.type::after {
+  content: "";
+  border-left: 1px solid black;
+  background-color: white;
+  right: 0;
+  height: 100%;
+  width: 6ch;
+  position: absolute;
+  animation: typing 3s infinite alternate steps(5);
+  transition: 0.8s;
+}
+
+@keyframes typing {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0;
+  }
+}
+main section article figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main section article figure img {
   height: 120px;

@@ -1,51 +1,54 @@
-header{
-    /* background-color: lightcoral; */
-}
 nav#etsy input {
-    border-radius: 40px;
-    width: 250px;
-    height: 30px;
+  border-radius: 40px;
+  width: 250px;
+  height: 30px;
 }
-nav#busqueda{
-    display: none;
+nav#busqueda {
+  display: none;
 }
-nav#lineal{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: aquamarine; */
-    border-bottom: 1px solid rgba(209, 200, 200, 0.507);
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
-}
-nav#lineal a{
-    width: 8%;
-    text-align: center;
-}
-nav#lineal a:hover{
-    border-bottom: 2px solid black;
-}
-#lupa{
-    display: block;
-    translate: -30px;
-}
-nav#etsy {
-    display: flex;
-    align-items: center;
+nav#lineal {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aquamarine; */
+  border-bottom: 1px solid rgba(209, 200, 200, 0.507);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
 }
 
-nav#etsy input{
-    display: block;
-    border: 1px solid rgba(0, 0, 0, 0.473);
-    width: 100%;
-    padding-left: 10px;
-    margin-left: 15px;
+nav#lineal a {
+  width: 8%;
+  text-align: center;
 }
-main section{
-flex-flow: row-reverse wrap;
+nav#lineal a:hover {
+  border-bottom: 2px solid black;
 }
-main section h2, aside h2{
-    color: orange;
+#lupa {
+  display: block;
+  translate: -30px;
 }
+nav#etsy {
+  display: flex;
+  align-items: center;
+}
+
+nav#etsy input {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.473);
+  width: 100%;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+main section {
+  flex-flow: row-reverse wrap;
+}
+main section h2,
+aside h2 {
+  color: orange;
+}
+main section article {
+    margin-left: 20px;
+    width: max-content;
+  }
