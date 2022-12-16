@@ -1,0 +1,51 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+#buscador1{
+    display: inline;
+    width: 50%;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+#buscador2{
+    display: none;
+}
+header h1{
+    width: 15%;
+    font-size: 40px;
+    margin-left: 40px;
+}
+header nav#iconos{
+    width: 25%;
+}
+header nav#secciones{
+    display: inline;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    font-size: 30px;
+}
+header nav#secciones a{
+    text-align: center;
+    width: 15%;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 20px;
+}
+header section{
+    order: 3;
+}
+header section h2{
+    color: orange;
+}
+figure{
+    display: none;
+}
+header nav#articulos section h2{
+    width: 90%;
+}
+main h2{
+    color: orange;
+}

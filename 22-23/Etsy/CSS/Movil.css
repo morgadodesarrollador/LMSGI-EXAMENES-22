@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+}
+header h1{
+    width: 30%;
+    color: orange;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 5px;
+}
+header nav#iconos{
+    width: 68%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+header nav#iconos img{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 9%;
+    height: 30px;
+    margin-right: 50px;
+    margin-top: 8px
+}
+header nav#iconos a{
+    color: black;
+    width: 20%;
+    margin-top: 15px;
+}
+header nav#secciones{
+    display: none;
+}
+header figure{
+    width: 15%;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+#buscador1{
+    display: none;
+}
+#buscador2{
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+header nav#articulos{
+    background-color: rgb(211, 231, 181);
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 10px;
+}
+header nav#articulos img{
+    border-radius: 100px;
+}
+header section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+header section h2{
+    text-align: center;
+}
+header section article{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;  
+    padding: 5px;  
+    font-size: 15px;
+}
+header section article img{
+    height: 140px;
+}
+main{
+    margin-top: 30px;
+}
+main h2{
+    text-align: center;
+}
+main section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+main section article{
+    padding: 10px
+}
+main section article p{
+    text-align: center;
+}
