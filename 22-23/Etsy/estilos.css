@@ -75,6 +75,16 @@ header>#navInferior{
     color: black;
 }
 
+#navCategorias{
+    border-bottom: 2px solid rgb(214, 214, 214);   
+    padding: 5px;
+}
+
+#navCategorias>a{
+    text-decoration: none;
+    color: blue;
+}
+
 form{
     display: flex;
     justify-content: center;
@@ -171,10 +181,65 @@ main>#sectionArticulos>article>p{
     text-align: center;
 }
 
-@media (min-width: 0px) and (max-width: 921){
-
+@media (min-width: 0px) and (max-width: 921px){
+    #navCategorias{
+        display: none;
+    }
 }
 
 @media (min-width: 922px){
-    
+    #navIconos{
+        gap: 20px;
+    }
+    main>#sectionArticulos{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        justify-items: center;
+        align-items: center;
+        /* row-gap: 30px; */
+    }
+    main>#sectionArticulos>h1{
+        color: orange;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    main>#sectionMenu>h1{
+        color: orange;
+    }
+    main>#sectionMenu>nav{
+        display: grid;
+        grid-template-columns: 16% 16% 16% 16% 16% 16%;
+        width: 90%;
+        margin: auto;
+        gap: 20px;
+        padding-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    main>#sectionMenu>nav>a>img{
+        width: 100px;
+    }
+    #img1{
+        order: 5;
+    }
+    #img2{
+        order: 4;
+    }
+    #img3{
+        order: 3;
+    }
+    #img4{
+        order: 2;
+    }
+    #img5{
+        order: 1;
+    }
+    #img6{
+        order: 0;
+    }
+    main>#sectionArticulos>article{
+        padding-bottom: 10px;
+    }
 }
