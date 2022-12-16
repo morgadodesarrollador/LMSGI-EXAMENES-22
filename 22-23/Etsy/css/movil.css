@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+}
+main {
+  background-color: white;
+  grid-area: main;
+}
+nav#etsy {
+  display: flex;
+  flex-flow: row nowrap;
+  /* background-color: red; */
+  height: 35%;
+  width: 75%;
+}
+nav#etsy h1 {
+  font-size: 40px;
+  color: orange;
+  /* order: 2; */
+}
+nav#etsy input {
+  display: none;
+}
+#lupa {
+  display: none;
+}
+#lupa1 {
+  translate: -80px;
+}
+nav#iconos {
+  width: 25%;
+  /* background-color: lightcoral; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 35%; */
+}
+nav#iconos figure img {
+  height: 20px;
+  width: 20px;
+  /* background-color: blue; */
+}
+nav#busqueda {
+  display: flex;
+  /* background-color: yellow; */
+  width: 100%;
+  /* height: max-content; */
+  justify-content: space-around;
+  align-items: center;
+}
+nav#busqueda input {
+  border-radius: 40px;
+  width: 80%;
+  height: 30px;
+  margin-left: 25px;
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.473);
+}
+nav#lineal {
+  display: none;
+}
+main section {
+  background-color: rgb(188, 252, 188);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+main section h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+main section article {
+  margin-left: 20px;
+  /* width: 30%; IMPORTANTE REVISAR!!!!*/
+}
+main section article h4 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+main section article figure img {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+}
+aside {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+aside h2 {
+  width: 100%;
+  text-align: center;
+}
+aside article {
+  /* width: 45vh; */
+  margin: 20px;
+  margin-right: 35px;
+}
+aside article h4 {
+  text-align: center;
+}
+figure img#escudo,
+i#corazon,
+i#carro {
+  transition: 0.5s;
+  cursor: pointer;
+}
+figure img#escudo:hover {
+  transform: scale(1.4);
+  /* box-shadow: 10px 10px 10px 10px; */
+}
+i#corazon:hover {
+  transform: scale(1.4);
+  color: lightcoral;
+}
+i#carro:hover {
+  transform: scale(1.4);
+}
+
+section article:hover {
+  border-bottom: 2px solid black;
+}
