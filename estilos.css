@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 0px){
+    header nav#principal2{
+        display: none;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    header h1{
+    width: 50%;
+    color: orange;
+    }
+    header nav{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header nav figure#españa img{
+        height: 15px;
+    }
+    header div{
+        width: 10%;
+    }
+    header nav#search{
+        width: 90%;
+    }
+    header nav#search input{
+        width: 380px;
+    }
+    a#lupa{
+        translate: -20px;
+    }
+    main section#principal h3{
+        padding: 10px;
+    }
+    main section#principal{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: bisque;
+    }
+    main section#principal article{
+        width: 30%;
+    }
+    main section#principal article figure{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 30px;
+        display: flex;
+    }
+    main section#principal article figure span{
+        font-size: 8px;
+        justify-content: center;
+    }
+    main section#principal article figure img{
+        height: 70px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    main section#secundario{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    main section#secundario h3{
+        width: 100%;
+        padding: 5px;
+        margin-left: 60px;
+    }
+    main section#secundario article figure img{
+        height: 150px;
+    }
+    main section#secundario article {
+        display: flex;
+        flex-flow: row wrap;
+       
+        width: 50%;
+        justify-content: center;
+    }
+    main section#secundario article span{
+        justify-content: center;
+    }
+
+
+}
+@media screen and (min-width: 900px){
+    header nav#principal2{
+        display: block;
+        width: 100%;
+        
+    }
+    header{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    header h1{
+        width: 10%;
+        
+        background-color: aqua;
+    }
+    header nav{
+        width: 30%;
+    }
+    header nav#search{
+        width: 60%;
+        
+    }
+    header nav#principal2{
+        display: flex;
+        width: 100%;
+    }
+    header nav#principal2 a{
+        text-decoration: none;
+    }
+    header div button{
+        display: none;
+    }
+    main{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    main section#principal{
+        display: flex;
+        flex-flow: row-reverse ;
+        width: 100%;
+    }
+    main section#principal h3{
+        display: none;
+        /* Le quito el h3 porque sino no me deja ponerlo en row wrap */
+    }
+    main section#principal article figure span{
+        padding: 20px;
+    }
+
+}
+/* Claramente no esta terminado */
