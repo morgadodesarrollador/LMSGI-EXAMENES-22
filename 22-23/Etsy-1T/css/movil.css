@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+header  h1 {
+    width: 50%;
+    font-size: 50px;
+    color: orange;
+    font-weight: lighter;
+}
+
+header nav#entrar {
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header nav#entrar a#in i {
+    display: none;
+}
+header nav#entrar a#in span {
+    display: flex;
+}
+header nav#entrar a#escudo img {
+    width: 30px;
+    height: 30px;
+   display: block;
+
+}
+header nav#entrar a {
+    color: black;
+    text-decoration: none;
+    transition: .5s all;
+}
+header nav#entrar a:hover {
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+header nav#entrar a span {
+    display: none !important;
+    font-size: 20px !important;
+}
+header nav#entrar a i {
+    font-size: 24px;
+}
+header nav#entrar {
+    border: 0x solid red;
+}
+
+header a#bars {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    width: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+header a#bars:hover {
+    /* padding: 10px; */
+    color: black;
+    /* border-radius: 30px; */
+}
+header div#search {
+    width: 90%;
+    color: red;
+    display: flex;
+    flex-flow: row nowrap;
+}
+header div#search input {
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: grey;
+}
+header div#search i {
+    width: 10%;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-70px, 0);
+}
+header div#search i:hover {
+    color: blue;
+}
+
+header nav#menu {
+    display: none;
+}
+
+main header {
+    background-color: rgba(0,255,0, .2);
+}
+
+main header h2 {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+}
+
+main header nav#categorias {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+main header nav#categorias a {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 32%;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border: 0px solid black;
+}
+
+main header nav#categorias a img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    /* transition: .3s all; */
+    margin-bottom: 10px;
+}
+main header nav#categorias a span {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+
+main header nav#categorias a:hover {
+
+    border-bottom: 2px solid black;
+
+}
+main h2 {
+    text-align: center;
+}
+
+
+main section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article {
+    width: 40%;
+    border: 0px solid red;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main section article h3 {
+    grid-area: titulo ;
+    align-self: center;
+    width: 80%;
+    margin: 0 auto;
+}
+main section article img {
+    width: 80%;
+}
+
+main section article span.precio {
+    font-size: 20px;
+    font-weight: bolder;
+    width: 50%;
+
+}
+main section article span.categoria {
+    font-size: 20px;
+    font-weight: bolder;
+    width: 50%;
+}   
