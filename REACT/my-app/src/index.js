@@ -1,76 +1,50 @@
-//tipos basicos de variables: number(enteros, decimales), string, boolean (true, false)
-//objetos --> variables de tipo complejo que contienen estructuras de datos de cualquier tipo
-/*
-    un objeto es un tipo complejo formado por parejas (propiedad: valor) separados por ,
-*/
-const persona = {
-    nif: '242424242', //variable monovaluada
-    nombre: 'jose antonio',
-    apellidos: 'morgado',
-    edad: 50,
-    casado: false,
-    direccion: {
-        calle: 'c/la pimienta',
-        numero: 5,
-        codpostal: '04880',
-        ciudad: 'Almeria',
-        pais: 'España'
-    },
-    aficiones: ['ciclismo', 'natación', 'petanca'], //variable multivaluada
-    
-}
+//ARRAY es una variable multivaluada que contiene un conjunto o lista de valores se expresa --> []
 
-//Hacer una copia del objeto (DUPLICAR).
+//Declaración y inicialización del array. Son equivalentes
 
-//OPERADOR SPREAD --> ...OBJETO     ...ARRAY
-console.log( { ...persona } );
+// const datos = new Array();
+let valores = []; //Array vacío.
 
-console.log( { ...persona.aficiones } );
+console.log(valores); //Devuelve un array vacío.
+valores.push(2); // Inserta datos en el final del Array.
+valores.push(6);
+valores.push(4);
+// valores.pop(55);
+console.log(valores);
 
-const persona3 = { ...persona };
-persona3.nombre = 'Alfonso';
-persona3.edad = 30;
-delete(persona3.aficiones);
-console.log(persona3);
+let edades = valores;
+console.log(edades);
 
+edades.push(45,567,34);
 
+ // [2,6,4] el operador spread que son los 3 puntos antes de valores, nos despliega los valores asignados anteriormente con el push.
+             // Solo tiene sentido usar spread en un array o un objeto.
 
+// console.log(datos);
+// console.log(valores);
 
-// const persona2 = persona;       //la copia de la referencia que apunta a la persona
-// persona2.nombre = 'Ana Maria';          
-// persona2.edad = 22;
-// delete(persona2.aficiones);
+//Metodos sobre array --> lenght(longitud del array) es una propiedad.
+//forEach recorre/ITERA todos los elementos de un Array/Vector/Arreglo/Lista.
+let datos = [ 88, ...valores, 100, 105 ];
+datos.push(99);
+datos.forEach(function(valor){
+console.log ("valor =", valor);
+})
+
+let suma = 0;
+datos.forEach( ( ele ) => [
+    suma = suma + ele,
+    console.log(ele)
+])
 
 
-
-
-// console.log(persona, persona2);
-
-// console.log(persona);
-// console.table(persona);
-// console.log(persona.direccion.ciudad);
-
-
-/*
-console.log (persona.aficiones[0]);
-console.log (persona.aficiones[1]);
-console.log (persona.aficiones[2]);
-console.log (persona.aficiones.length); //length --> tamaño-longitud del array
-
-console.log (persona.aficiones.length -1);
-
-console.log (persona.aficiones [persona.aficiones.length -1]);
-
-let ultimo = persona.aficiones.length -1;
-console.table(persona.aficiones[ultimo]);
-*/
+// datos.forEach(v => {
+//     console.log(v)
+// })
 
 
 
-// console.table (persona);
-// console.log (persona.edad + 30);
 
 
-// [] --> indica un array
 
-//ARRAY --> Variable que contiene varios valores
+

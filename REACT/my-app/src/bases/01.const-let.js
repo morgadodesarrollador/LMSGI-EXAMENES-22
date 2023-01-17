@@ -35,3 +35,7 @@ let suma = 50 + 50;
 
 //Angular, Vue, React, Next js.... NO SON LENGUAJES DE PROGRAMACIÓN
 //Son FW de desarrollo y usan JS y TS como lenguaje
+
+
+
+
