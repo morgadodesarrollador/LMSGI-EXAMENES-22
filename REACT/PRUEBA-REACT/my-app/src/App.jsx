@@ -18,9 +18,9 @@
 
 
 import './App.css';
-import { heroes } from './data/heroes';
+import { heroes, lenguajes } from './data/heroes';
 const App = () => {
-  console.log(heroes);
+  console.log(heroes, lenguajes);
   console.log('Hola Mundo desde React');
   let titulo = "PcComponentes"
   return (
@@ -38,6 +38,26 @@ const App = () => {
           })
         }
       </ul>
+      <table className='tabla1'>
+        <tr className='tr1'>
+          <td>COD</td>
+          <td>NOMBRE</td>
+          <td>LADO</td>
+        </tr>
+        {
+          lenguajes.map( (lenguaje) => {
+            return(
+              <>
+              <tr className='tr2'>
+                <td> {lenguaje.cod} </td>
+                <td> {lenguaje.Nombre} </td>
+                <td> {lenguaje.lado} </td>
+              </tr>
+              </>
+            )
+          })
+        }
+      </table>
     </>
   )
 }
