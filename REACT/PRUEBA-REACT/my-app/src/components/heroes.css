@@ -1,0 +1,21 @@
+.tabla_heroes {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.tabla_heroes thead {
+    background-color: grey;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tabla_heroes td {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.tabla_heroes td:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
