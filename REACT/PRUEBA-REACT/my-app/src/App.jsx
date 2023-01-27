@@ -17,15 +17,26 @@
 
 
 
-import './App.css';
-import { heroes, lenguajes } from './data/heroes';
-import { HeroesList } from './components/heroeslist';
+// import './App.css';
+// import { heroes, lenguajes } from './data/heroes';
+// import { HeroesList } from './components/heroeslist';
+import Header from './components/estructura/header/Header';
+import Main from './components/estructura/main/Main';
+import Footer from './components/estructura/footer/Footer';
 const App = () => {
   let titulo = "Los superheroes";
   return(
     <>
-      <h1 className='titulo'> {titulo} </h1>
-      <HeroesList heroes= {heroes} />
+
+      <Header></Header>
+      <Main></Main>
+      <Footer></Footer>
+
+
+
+
+      {/* <h1 className='titulo'> {titulo} </h1>
+      <HeroesList heroes= {heroes} /> */}
     </>
   )
 }

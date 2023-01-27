@@ -1,0 +1,14 @@
+
+
+
+Footer{
+    height: 120px;
+    background-color: aqua;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+Footer h1{
+    text-align: center;
+}
