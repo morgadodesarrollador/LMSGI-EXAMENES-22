@@ -23,6 +23,8 @@
 import Header from './components/estructura/header/Header';
 import Main from './components/estructura/main/Main';
 import Footer from './components/estructura/footer/Footer';
+import { Sociales } from './components/estructura/footer/sociales/Sociales';
+import { Mapa } from './components/estructura/footer/mapa/Mapa';
 const App = () => {
   let titulo = "Los superheroes";
   return(
@@ -30,7 +32,10 @@ const App = () => {
 
       <Header></Header>
       <Main></Main>
-      <Footer></Footer>
+      <Footer>
+        <Sociales></Sociales>
+        <Mapa></Mapa>
+      </Footer>
 
 
 

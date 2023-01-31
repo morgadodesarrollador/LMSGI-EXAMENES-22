@@ -1,4 +1,25 @@
 Main{
-    background-color: rgb(0, 209, 31);
+    background-color: rgb(96, 169, 224);
     height: 800px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+main nav{
+    width: 20%;
+    height: 400px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+main section{
+    width: 40%;
+    background-color: aqua;
+    margin: 20px;
 }
