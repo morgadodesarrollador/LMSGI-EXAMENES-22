@@ -1,0 +1,26 @@
+import React from 'react'
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom'
+import './NavBar.css'
+import { Formacion } from './secciones/formacion/Formacion'
+import { Servicios } from './secciones/servicios/Servicios'
+
+export const NavBar = () => {
+  return (
+    <BrowserRouter>
+        <nav>
+            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/formacion'>Formacion</NavLink>
+            <NavLink to='/servicios'>Servicios ofrecidos</NavLink>
+            <NavLink to='/contact'>Contacto</NavLink>
+            <NavLink to='/works'>Trabajos</NavLink>
+        </nav>
+        <Routes>
+            <Route path='/' element={<h2>Pagina Principal</h2>}></Route>
+            <Route path='/formacion' element={<Formacion/>}></Route>
+            <Route path='/servicios' element={<Servicios/>}></Route>
+            <Route path='/contact' element={<h2>Seccion de Contacto</h2>}></Route>
+            <Route path='/works' element={<h2>Seccion de Trabajos</h2>}></Route>
+        </Routes>
+    </BrowserRouter> 
+  )
+}
