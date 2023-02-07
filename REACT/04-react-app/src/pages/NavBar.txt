@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom'
 import './NavBar.css'
-import { Formacion } from './secciones/formacion/Formacion'
-import { Servicios } from './secciones/servicios/Servicios'
+import { Formacion } from '../components/commons/secciones/formacion/Formacion'
+import { Servicios } from '../components/commons/secciones/servicios/Servicios'
 
 export const NavBar = () => {
   return (

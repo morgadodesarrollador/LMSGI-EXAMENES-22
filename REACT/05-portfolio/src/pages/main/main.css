@@ -1,0 +1,14 @@
+main {
+    background-color: green;
+    height: 500px;
+    /* display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+main h1 {
+    background-color: rgb(5, 70, 5);
+    text-align: center;
+    color: white;
+}
