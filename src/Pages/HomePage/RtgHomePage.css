@@ -1,0 +1,8 @@
+#divHome{
+    /* padding: 20px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../Img/home.jpg);
+    background-position: center center;
+    height: 100vh;
+  }

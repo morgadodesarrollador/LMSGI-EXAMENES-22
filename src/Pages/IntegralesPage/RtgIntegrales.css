@@ -7,7 +7,12 @@
 }
 
 .ArticleVideo{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
     width: 30%;
+    padding: 0px;
 }
 
 .videoTitulo{
@@ -24,4 +29,9 @@ h2{
     text-align: center;
     margin: 0px;
     font-weight: normal;
+}
+
+iframe{
+    width: 100%;
+    height: 300px;
 }
