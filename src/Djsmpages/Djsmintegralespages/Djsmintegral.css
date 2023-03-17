@@ -1,0 +1,18 @@
+section#integral{
+    margin-top: 3%;
+}
+section#integral > p{
+    margin-top: 3%;
+}
+section#integral > h1{
+    font-size: 30px;
+}
+section#integral > h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+div#video{
+    margin-left: 45px;
+    margin-bottom: 50px
+}

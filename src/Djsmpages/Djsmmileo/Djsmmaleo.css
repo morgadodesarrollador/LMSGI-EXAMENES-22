@@ -1,0 +1,15 @@
+section#maleo{
+    margin-top: 5%;
+}
+section#maleo > p{
+    margin-top: 5%;
+}
+section#maleo > h1{
+    font-size: 20px;
+}
+
+section#maleo > img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
