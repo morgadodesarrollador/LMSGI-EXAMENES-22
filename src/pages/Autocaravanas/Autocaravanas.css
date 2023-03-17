@@ -1,0 +1,15 @@
+section#auto{
+    min-height: 100vh;
+    background-image: url('../../img/home.jpg');
+    /* background: linear-gradient(rgba(0, 0, 0, 0.239), rgba(0, 0, 0, 0.322)), url('../../img/home.jpg'); */
+    padding: 20px;
+}
+section#auto p{
+    margin-top: 20px;
+}
+section#auto h1{
+    /* text-align: center; */
+    font-size: 25px;
+    margin-bottom: 10px;
+    /* margin: 0 auto; */
+}

@@ -1,0 +1,23 @@
+section#amphi figure{
+    height: 400px;
+    width: 100%;
+
+}
+section#amphi{
+    padding: 10px;
+}
+section#amphi figure img{
+    height: 100%;
+    width: 100%;
+
+}
+.planos{
+    border: 1px solid black;
+    padding: 10px;
+}
+.planos * {
+    padding: 4px;
+}
+figure#planosfoto{
+    height: 300px !important; 
+}

@@ -1,0 +1,16 @@
+nav#ln1{
+    display: flex;
+    flex-direction: column;
+}
+nav#ln1 a:first-child{
+    font-size: 25px;
+}
+.linkppal{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: purple;
+}
