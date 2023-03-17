@@ -1,0 +1,37 @@
+section.fotos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;  
+}
+
+.fotos img{
+    width: 450px;
+    height: 350px;
+}
+
+.integral_foto {
+    border: 2px solid gray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+.integral_foto h3 {
+    width: 100%;
+}
+
+.integral_foto span {
+    width: 100%;
+}
+
+.integral_foto li {
+    width: 100%;
+    padding-left: 20px;
+}
+.integral_foto img {
+    height: 200px;
+}
