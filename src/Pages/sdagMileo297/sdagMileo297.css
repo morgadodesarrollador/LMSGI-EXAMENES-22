@@ -1,0 +1,15 @@
+section#mileo{
+    margin-top: 3%;
+}
+section#mileo > p{
+    margin-top: 3%;
+}
+section#mileo > h1{
+    font-size: 30px;
+}
+
+section#mileo > img{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 3%;
+}

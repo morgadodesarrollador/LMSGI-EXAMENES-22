@@ -1,0 +1,15 @@
+section#rapido{
+    margin-top: 5%;
+}
+section#rapido > p{
+    margin-top: 5%;
+}
+section#rapido > h1{
+    font-size: 30px;
+}
+
+section#rapido > img{
+    width: 70%;
+    margin-left: 8%;
+    margin-top: 3%;
+}

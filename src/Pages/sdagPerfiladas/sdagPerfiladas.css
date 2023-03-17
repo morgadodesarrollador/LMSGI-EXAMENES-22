@@ -1,0 +1,9 @@
+section#perfiladas{
+    margin-top: 5%;
+}
+section#perfiladas > p{
+    margin-top: 3%;
+}
+section#perfiladas > h1{
+    font-size: 30px;
+}

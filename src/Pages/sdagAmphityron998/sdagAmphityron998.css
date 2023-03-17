@@ -1,0 +1,43 @@
+section#amphityron{
+    padding-bottom: 10px;
+    margin-top: 3%;
+}
+section#amphityron > img{
+    width: 40%;
+    margin-top: 5%;
+}
+section#amphityron > p{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+section#amphityron > h1{
+    font-size: 30px;
+    margin-left: 3%;
+}
+div#integral{
+    display: flex;
+}
+div#integral > article{
+    width: 50%;
+    border: solid 2px black;
+    margin-left: 30px;
+    margin-top: 5%;
+}
+div#integral > img{
+    width: 30%;
+    height: 230px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+div#integral > article > li{
+    margin-left: 30px;
+}
+div#integral > article > h1{
+    font-size: 40px;
+    text-align: center;
+}
+article > img{
+    width: 70%;
+    margin-left: 18%;
+    height: 200px;
+}

@@ -1,0 +1,12 @@
+section#home{
+    background-image: url(../../img/Autocaravanas.jpg);
+    height: 657px;
+}
+section#home > p{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+section#home > h1{
+    font-size: 30px;
+    margin-left: 3%;
+}
