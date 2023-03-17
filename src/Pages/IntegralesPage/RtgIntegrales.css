@@ -1,0 +1,27 @@
+#galeriaVideos{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    /* gap: 50px; */
+    justify-content: space-between;
+}
+
+.ArticleVideo{
+    width: 30%;
+}
+
+.videoTitulo{
+    font-size: 10pt;
+    color: blue;
+    border: none;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    font-weight: normal;
+}
