@@ -1,38 +1,85 @@
-.App {
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing:border-box;
+}
+div#root{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+header{
+  width: 20%;
+  height: 100vh;
+  padding: 20px;
+}
+header nav{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 25px;
+}
+header nav a{
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+header nav a#title{
+  width: 100%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header nav a.secs{
+  padding-top: 20px;
+  border-bottom: 1px solid black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main{
+  width: 80%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+}
+main#home{
+  background-image: url('./assets/home.jpg');
+}
+main h1{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 80%;
+  height: max-content;
+}
+main h1{
+  padding-bottom: 10px;
+}
+main h1.borde{
+  border-bottom: 3px solid white;
+}
+main h2{
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+main p{
+  margin: 10px;
+  width: 80%;
+  padding-left: 50px;
+}
+main section iframe{
+  margin: 5px;
+}
+main figure{
+  width: max-content;
+  width: 49%;
+  height: max-content;
+}
+main figure:last-child{
+  border: red solid 2px 
+}
+main figure:last-child li{
+  padding-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+main figure img{
+  width: 70vh
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main#fast figure{
+  border: none;
 }
