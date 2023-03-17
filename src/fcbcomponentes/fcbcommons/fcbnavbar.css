@@ -1,0 +1,78 @@
+.navegador {
+
+    /* background-color: chocolate; */
+    
+}
+
+a {
+
+    font-size: 20px;
+    padding-bottom: 20px;    
+    width: 80%;
+    margin: auto;
+
+
+}
+
+nav {
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+
+nav a:first-child {
+
+    text-align: center;
+
+}
+
+a:not(.primero),
+a:nth-child(2),
+a:nth-child(3),
+a:nth-child(4),
+a:nth-child(5),
+a:nth-child(6) {
+
+text-decoration: none;
+color: black;
+
+}
+
+a:nth-child(2),
+a:nth-child(5) {
+
+    border-bottom: 1px solid black;
+
+}
+
+
+a:nth-child(2):hover {
+
+    background-color: #BCBCBC;
+  
+}
+
+a:nth-child(3):hover {
+
+    background-color: #BCBCBC;
+  
+}
+a:nth-child(4):hover {
+
+    background-color: #BCBCBC;
+  
+}
+a:nth-child(5):hover {
+
+    background-color: #BCBCBC;
+  
+}
+a:nth-child(6):hover {
+
+    background-color: #BCBCBC;
+  
+}
+

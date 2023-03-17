@@ -1,0 +1,50 @@
+main {
+
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+
+}
+
+section#imagen {
+
+    background-image: url(../../../imagenes/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+
+section {
+
+    width: 100%;
+
+}
+
+ main div.contenedor {
+
+    max-height: 500px;
+    max-width: 80%;
+    padding: auto;
+} 
+
+main div.contenedor h2 {
+
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/* main div.contenedor2 {
+
+    max-height: 500px;
+    max-width: 80%;
+    padding: auto;
+} */
+
+p {
+
+    padding-left: 25px;
+}
