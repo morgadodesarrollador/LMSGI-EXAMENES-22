@@ -3,7 +3,7 @@ import React from 'react'
 export const Jjfperf = () => {
     return (
         <main>
-            <h1>
+            <h1 className='borde'>
                 Autocaravanas Perfiladas
             </h1>
             <p>Las autocaravanas perfiladas se caracterizan principalmente por su versatilidad, ya que estos vehículos  tienen  diferentes dimensiones de altura y longitud, desde los 6 metros de longitud hasta los casi 8 metros que se adaptan al número de personas que viajen, desde una pareja hasta un máximo de cinco o hasta seis personas.</p>

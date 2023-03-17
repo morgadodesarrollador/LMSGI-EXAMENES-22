@@ -15,8 +15,8 @@ import { Jjfmil } from './pages/Jjfmil/Jjfmil';
 export const App = () => {
   return (
     <>
-      <JjfHeader />
-      <JjfMain />
+      <JjfHeader/>
+      <JjfMain/>
       <Routes>
       <Route path='/' element={<Jjfauto/>}/>
         <Route path='int' element={<Jjfint/>}/>
