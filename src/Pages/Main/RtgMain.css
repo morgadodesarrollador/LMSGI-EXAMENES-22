@@ -1,0 +1,10 @@
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    /* justify-content: center; */
+    /* padding: 30px; */
+    width: 80%;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Img/home.jpg); */
+  }

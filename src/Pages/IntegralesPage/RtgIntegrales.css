@@ -13,6 +13,7 @@
     justify-content: center;
     width: 30%;
     padding: 0px;
+    gap: 0px;
 }
 
 .videoTitulo{
@@ -25,9 +26,10 @@
 }
 
 h2{
+    font-size: 26pt;
     width: 100%;
     text-align: center;
-    margin: 0px;
+    margin: 0px 0px 5px 0px;
     font-weight: normal;
 }
 
